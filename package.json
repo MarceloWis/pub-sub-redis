@@ -1,0 +1,17 @@
+{
+  "name": "pub-sub-redis",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Marcelo Wischniowski <marcelowisc@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+	  "dev": "nodemon"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

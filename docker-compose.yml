@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    image: node:latest
+    volumes:
+    - ./:/var/www
+    restart: always
+    ports:
+      - 3000:3000
+
+  redis:
+    image: redis:alpine
+    ports:
+    - 6379
