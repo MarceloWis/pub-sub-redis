@@ -1,8 +1,5 @@
 # Mensageria Pub/Sub (Publish / Subscription Pattern) com Redis
 
-## Como iniciar esse exemplo?
-
-1 -
 
 ## A principal diferença entre Observer e Pub/Sub
 
