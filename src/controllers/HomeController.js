@@ -1,4 +1,3 @@
-const redisConfig = require('../config/redisConfig')
 class HomeController {
 	async index(request, response) {
 		request.subscriber.subscribe('channel')
